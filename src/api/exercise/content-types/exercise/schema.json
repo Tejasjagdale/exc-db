@@ -1,0 +1,113 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exercises",
+  "info": {
+    "singularName": "exercise",
+    "pluralName": "exercises",
+    "displayName": "Exercise",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "exc_name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "og_link": {
+      "type": "string",
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 100
+    },
+    "video_src": {
+      "type": "string",
+      "unique": true
+    },
+    "muscle_img": {
+      "type": "string",
+      "unique": true
+    },
+    "instructions": {
+      "type": "json"
+    },
+    "related_excercises": {
+      "type": "json"
+    },
+    "ext_img": {
+      "type": "json"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Strongman",
+        "Strength",
+        "Olympic Weightlifting",
+        "Powerlifting",
+        "Cardio",
+        "Plyometrics",
+        "Stretching"
+      ]
+    },
+    "Level": {
+      "type": "enumeration",
+      "enum": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    "Equipment": {
+      "type": "enumeration",
+      "enum": [
+        "Other",
+        "Machine",
+        "Barbell",
+        "Dumbbell",
+        "Body Only",
+        "Cable",
+        "E-Z Curl Bar",
+        "Kettlebells",
+        "None",
+        "Bands",
+        "Medicine Ball",
+        "Exercise Ball"
+      ]
+    },
+    "Main_Muscle_Worked": {
+      "type": "enumeration",
+      "enum": [
+        "Forearms",
+        "Quadriceps",
+        "Abdominals",
+        "Lats",
+        "Middle Back",
+        "Lower Back",
+        "Shoulders",
+        "Biceps",
+        "Glutes",
+        "Triceps",
+        "Hamstrings",
+        "Neck",
+        "Chest",
+        "Traps",
+        "Calves",
+        "Abductors",
+        "Adductors"
+      ]
+    },
+    "benifits": {
+      "type": "json"
+    },
+    "short_desc": {
+      "type": "text"
+    }
+  }
+}
