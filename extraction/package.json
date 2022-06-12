@@ -1,0 +1,31 @@
+{
+  "name": "exerciseapi",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is an API for all different types of exercise",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tejasjagdale/exercisesAPI.git"
+  },
+  "author": "Tejas Jagdale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tejasjagdale/exercisesAPI/issues"
+  },
+  "homepage": "https://github.com/Tejasjagdale/exercisesAPI#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "cli-progress": "^3.11.1",
+    "extract-zip": "^2.0.1",
+    "node-fetch": "^3.2.6",
+    "puppeteer": "^14.1.1",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
