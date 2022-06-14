@@ -19,7 +19,7 @@
     },
     "og_link": {
       "type": "string",
-      "unique": true
+      "unique": false
     },
     "slug": {
       "type": "uid",
@@ -29,11 +29,11 @@
     },
     "video_src": {
       "type": "string",
-      "unique": true
+      "unique": false
     },
     "muscle_img": {
       "type": "string",
-      "unique": true
+      "unique": false
     },
     "instructions": {
       "type": "json"

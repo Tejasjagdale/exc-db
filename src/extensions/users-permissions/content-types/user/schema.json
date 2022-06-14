@@ -66,9 +66,6 @@
     "weight_data": {
       "type": "json"
     },
-    "age": {
-      "type": "integer"
-    },
     "height": {
       "type": "integer"
     },
